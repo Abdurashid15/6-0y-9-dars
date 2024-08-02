@@ -1,0 +1,42 @@
+.form{
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.form input{
+    padding: 10px;
+    border-color: gray;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn{
+    padding:10px;
+    border:1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    font-weight: 700;
+}
+.btn:hover{
+    opacity: .7;
+    background-color: antiquewhite;
+}
+.btn:active{
+    transform: scale(.9);
+}
+.login{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}

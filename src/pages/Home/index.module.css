@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    margin: 50px auto;
+}
+.btn{
+    padding:10px;
+    border:1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    font-weight: 700;
+}
+.btn:hover{
+    opacity: .7;
+    background-color: antiquewhite;
+}
+.btn:active{
+    transform: scale(.9);
+}
